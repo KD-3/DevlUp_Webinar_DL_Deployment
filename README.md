@@ -14,4 +14,10 @@ For the MNIST Handwritten App
 - Store the prediction and make a POST request to the Web App
 
 Steps for running inference app:
+#### Using virtual environment:
+- python3 -m venv venv
+- source venv/bin/activate (For Linux)
+- venv/scripts/activate (Windows)
+- pip3 install -r requirements.txt
+#### For starting the app
 - python3 app.py
